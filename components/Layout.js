@@ -21,7 +21,7 @@ const Layout = ({ title, children }) => {
               <a className="text-lg font-bold">Amazon</a>
             </Link>
             <div className="links">
-              <Link href="/card">
+              <Link href="/cart">
                 <a className="p-2">
                   Cart
                   {cart.cartItems.length > 0 && (
