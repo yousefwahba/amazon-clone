@@ -132,5 +132,5 @@ function Shipping() {
   );
 }
 
-export default Shipping;
 Shipping.Auth = true;
+export default Shipping;

@@ -2,11 +2,7 @@ import NextAuth from 'next-auth/next';
 import User from '../../../models/User';
 import db from '../../../utils/db';
 import bcryptjs from 'bcryptjs';
-<<<<<<< HEAD
 import CredentialsProvider from 'next-auth/providers/credentials';
-=======
-import { CredentialsProvider } from 'next-auth/providers';
->>>>>>> cf65bd7216c65e1b1e4ad05772f70da8b455a3cf
 export default NextAuth({
   session: {
     strategy: 'jwt',

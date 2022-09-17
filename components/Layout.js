@@ -2,10 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React, { useContext } from 'react';
 import { ToastContainer } from 'react-toastify';
-<<<<<<< HEAD
 // import 'react-toastify/dist/ReactToastify.css'
-=======
->>>>>>> cf65bd7216c65e1b1e4ad05772f70da8b455a3cf
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Store } from '../utils/Store';
