@@ -72,3 +72,4 @@ function Payment() {
 }
 
 export default Payment;
+Payment.aut = true;

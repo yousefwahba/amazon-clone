@@ -20,18 +20,18 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   );
 }
 
-function Auth({ childeren }) {
+function Auth({ children }) {
   const router = useRouter();
-  const { status } = useSession({
+  const { status, data: session } = useSession({
     required: true,
     onUnauthenticated() {
       router.push('/unauthorized?message=login required');
     },
   });
   if (status === 'loading') {
-    return <div>Loading ...</div>;
+    return <div>Loading...</div>;
   }
-  return childeren;
+  return children;
 }
 
 export default MyApp;
