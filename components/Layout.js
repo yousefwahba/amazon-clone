@@ -10,8 +10,11 @@ import { signOut, useSession } from 'next-auth/react';
 import { Menu } from '@headlessui/react';
 import DropdownLink from './DropdownLink';
 import Cookies from 'js-cookie';
+import { useRouter } from 'next/router';
 
 const Layout = ({ title, children }) => {
+  const router = useRouter();
+
   const { status, data: session } = useSession();
 
   const { state, dispatch } = useContext(Store);
@@ -77,9 +80,9 @@ const Layout = ({ title, children }) => {
                   </Menu.Items>
                 </Menu>
               ) : (
-                <Link href="login">
-                  <a className="p-2">Login</a>
-                </Link>
+                <button className="p-2" onClick={() => router.push('/login')}>
+                  <a>Login</a>
+                </button>
               )}
             </div>
           </nav>
