@@ -25,6 +25,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
 
 function Auth({ children }) {
   const router = useRouter();
+  // eslint-disable-next-line no-unused-vars
   const { status, data: session } = useSession({
     required: true,
     onUnauthenticated() {

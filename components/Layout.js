@@ -64,8 +64,11 @@ const Layout = ({ title, children }) => {
                   </Menu.Button>
                   <Menu.Items className="absolute right-0 w-56 origin-top-right bg-white  shadow-lg">
                     <Menu.Item>
-                      <DropdownLink className="dropdown-link" href="/profile">
-                        Profile
+                      <DropdownLink
+                        className="dropdown-link"
+                        href="/order-history"
+                      >
+                        Order History
                       </DropdownLink>
                     </Menu.Item>
                     <Menu.Item>
