@@ -9,7 +9,9 @@
 ## Tech Stack
 
 **Client:** React, nextjs, TailwindCSS
+
 **Server:** Nextjs, mongodb
+
 **Anther:** react hook form, next-auth, react-toastify, react-paypal, js-cookie
 
 ## Features
