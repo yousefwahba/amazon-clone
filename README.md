@@ -33,3 +33,7 @@
 | ![App Screenshot](./public/images/rm/10.png) | ![App Screenshot](./public/images/rm/11.png) |
 | ![App Screenshot](./public/images/rm/12.png) | ![App Screenshot](./public/images/rm/14.png) |
 | ![App Screenshot](./public/images/rm/7.png)  | ![App Screenshot](./public/images/rm/15.png) |
+
+## resources
+
+- Coding with Basir
