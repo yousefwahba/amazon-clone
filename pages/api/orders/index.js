@@ -7,7 +7,6 @@ const handler = async (req, res) => {
   if (!session) {
     return res.status(401).send('signin required');
   }
-  console.log('hello from fist index');
   const { _id } = session;
   await db.connect();
   const newOrder = new Order({
